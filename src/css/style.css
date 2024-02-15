@@ -159,7 +159,13 @@ nav {
     margin-top: 116px;
     width: 259px;
     height: 63px;   
+    transition: all 1s;
 }
+
+.promo .promo_btn:hover {
+    background-image: none;
+    background-color: rgb(11, 207, 28);
+} 
 
 .reasons {
     background: url('../img/mobile_bg.png') center center/cover no-repeat;
