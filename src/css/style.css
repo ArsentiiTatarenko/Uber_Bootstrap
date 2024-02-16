@@ -21,7 +21,7 @@ nav {
 }
 
 
-.nav_list .nav_link {
+.nav_link {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 15px;
@@ -34,7 +34,7 @@ nav {
     padding-left: 28px;
 } */
 
-.nav_list .nav_item {
+.nav_item {
     border-right: 2px  dashed #000;
     padding-right: 28px;
 }
