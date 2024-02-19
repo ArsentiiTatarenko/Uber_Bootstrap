@@ -1,3 +1,214 @@
+
+*
+  font-family: 'Roboto', sans-serif
+
+nav
+  height: 53px
+  background: rgb(33, 33, 33)
+  position: fixed
+  z-index: 3
+  width: 100%
+
+.nav_list
+  padding: 15px 70px
+  margin: 0
+  list-style: none
+  display: flex
+  justify-content: space-between
+
+.nav_link
+  text-decoration: none
+  color: rgb(255, 255, 255)
+  font-size: 15px
+  font-weight: 300
+
+/* .nav_list .nav_item + .nav_item {
+ *    border-left: 2px  dashed #000;
+ *    padding-left: 28px;
+ *}
+
+.nav_item
+  border-right: 2px  dashed #000
+  padding-right: 28px
+
+.nav_list .nav_item:last-child
+  border-right: none
+
+.subheader
+  background: rgba(0, 0, 0, 0.6)
+  height: 87px
+  position: relative
+  width: 100%
+  z-index: 2
+  top: 53px
+
+  .subheader_logo
+    display: block
+    text-decoration: none
+    text-transform: uppercase
+    color: #fff
+    max-width: 100%
+    margin-top: 16px
+
+  .subheader_img
+    width: 32px
+
+  .logo_descr
+    display: inline-block
+
+  .subheader_official
+    color: rgb(255, 255, 255)
+    font-size: 13px
+    font-weight: 400
+    opacity: 0.5
+    margin-top: 6px
+
+  .subheader_call
+    color: rgb(255, 255, 255)
+    font-size: 12px
+    font-weight: 300
+    line-height: 14px
+    margin-top: 19px
+    text-align: right
+
+  .subheader_phone
+    color: rgb(255, 255, 255)
+    font-size: 22px
+    font-weight: 400
+    text-transform: uppercase
+    text-decoration: none
+    text-align: right
+    display: block
+    line-height: 12px
+    margin-top: 8px
+
+  .subheader_btn
+    border-radius: 4px
+    box-shadow: inset 0px -3px 0px 0px rgba(0, 0, 0, 0.12)
+    background: linear-gradient(0deg, rgb(30, 172, 199), rgb(76, 226, 255) 100%)
+    width: 172px
+    height: 46px
+    color: rgb(255, 255, 255)
+    font-size: 14px
+    font-weight: 400
+    text-align: center
+    text-transform: uppercase
+    margin-top: 19px
+    border: none
+
+.promo
+  .promo_btn
+    border-radius: 4px
+    box-shadow: inset 0px -3px 0px 0px rgba(0, 0, 0, 0.12)
+    background: linear-gradient(0deg, rgb(30, 172, 199), rgb(76, 226, 255) 100%)
+    width: 172px
+    height: 46px
+    color: rgb(255, 255, 255)
+    font-size: 14px
+    font-weight: 400
+    text-align: center
+    text-transform: uppercase
+    margin-top: 19px
+    border: none
+
+  min-height: 800px
+  background: url('../img/uber_bg.png') center (center / cover) no-repeat
+  transform: translateY(-87px)
+
+  .promo_header
+    color: rgb(255, 255, 255)
+    text-transform: uppercase
+    font-size: 60px
+    font-weight: 700
+    text-align: center
+    margin-top: 200px
+    line-height: 60px
+    margin-bottom: 0
+
+  .promo_subheader
+    color: rgb(255, 255, 255)
+    text-transform: uppercase
+    font-size: 36px
+    font-weight: 700
+    text-align: center
+    line-height: 36px
+    margin-bottom: 0
+
+  .promo_descr
+    color: rgb(255, 255, 255)
+    font-size: 18px
+    font-weight: 400
+    line-height: 24px
+    text-align: center
+    margin-top: 23px
+
+  .promo_btn
+    display: block
+    margin: 118px auto 0 auto
+    margin-top: 116px
+    width: 259px
+    height: 63px
+    transition: all 1s
+
+    &:hover
+      background-image: none
+      background-color: rgb(11, 207, 28)
+
+.reasons
+  background: url('../img/mobile_bg.png') center (center / cover) no-repeat
+  padding: 71px 0 65px 0
+
+  .reasons_subheader
+    color: rgb(255, 255, 255)
+    font-size: 11px
+    font-weight: 400
+    line-height: 15px
+    text-align: center
+    text-transform: uppercase
+    width: 115px
+    background: rgb(0, 0, 0)
+    padding: 10px
+    margin: 0 auto
+
+  .reasons_header
+    color: rgb(34, 34, 34)
+    font-size: 38px
+    font-weight: 700
+    line-height: 48px
+    text-align: center
+    text-transform: uppercase
+    margin-top: 33px
+    margin-bottom: 0
+
+  .row
+    margin-top: 16px
+
+  .reasons_item
+    display: flex
+    margin-top: 20px
+    justify-content: space-evenly
+    align-items: center
+    min-height: 150px
+
+  .reasons_img_wrap
+    min-width: 116px
+    height: 116px
+    background: rgb(30, 172, 199)
+    border-radius: 50%
+    display: flex
+    align-items: center
+    justify-content: center
+
+  .reasons_descr
+    font-size: 15px
+    font-weight: 300
+    line-height: 21px
+    width: 340px
+
+    span
+      color: rgb(30, 172, 199)
+
+    
 .label 
     margin: 0 auto
     height: 24px
